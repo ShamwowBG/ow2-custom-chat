@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-chat-message-teal: #17b6e4;
+}
+
+.customScrollbar {
+  scrollbar-color: rgb(115, 255, 0);
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff62 #ffffff00;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 100;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff62;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+  }
